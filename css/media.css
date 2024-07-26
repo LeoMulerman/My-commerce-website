@@ -1,0 +1,275 @@
+@media (max-width: 960px) {
+
+    /* header */
+    .header__burger {
+        display: flex;
+    }
+
+    .header__nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 400px;
+        width: 300px;
+        top: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color: var(--color-typography);
+        animation: burgerAnimation 0.4s;
+    }
+
+    .header__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .header__links li+li {
+        margin-left: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+ 
+    .welcome {
+        padding: 100px 0 45px 0;
+    }
+    /* map section */
+    .map__info {
+        display: none;
+
+    }
+
+}
+
+@media (max-width: 770px) {
+
+    /* section ourwork */
+    .ourwork__cards {
+        flex-direction: column;
+    }
+
+    /* section about */
+    .about__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* section masters */
+    .masters__block {
+        flex-direction: column;
+    }
+
+    .masters__profile-item {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    /* section facts */
+    .facts__cards {
+        flex-direction: column;
+    }
+
+    .service__cards {
+        flex-direction: column;
+    }
+
+    /* video */
+    .about__video iframe {
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* map */
+    .map__info {
+        display: none;
+    }
+    .lacs__slider-description {
+        max-width: 300px;
+        text-align: center;
+    }
+}
+@media (max-width: 560px) {
+    .bug__cards {
+        gap: 20px;
+    }
+    .bug__card-item {
+        width: 140px;
+        height: 200px;
+    }
+    .bug__card-back {
+        width: 140px;
+        height: 200px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    /* section welcome */
+    .title {
+        font-size: 24px;
+    }
+
+    .welcome {
+        padding: 80px 0 30px 0;
+    }
+
+    .welcome h2 {
+        font-size: 22px;
+    }
+
+    .welcome p {
+        font-size: 22px;
+    }
+
+    /* section bug */
+    .bug h3 {
+        font-size: 23px;
+    }
+
+    /* ourwork */
+    .ourwork {
+        padding: 50px 0px;
+    }
+
+    .ourwork h3 {
+        font-size: 23px;
+    }
+
+    /* section about */
+    .about {
+        padding: 50px 0;
+    }
+
+    .about h3 {
+        font-size: 23px;
+    }
+
+    /* masters */
+    .masters {
+        padding: 50px 0;
+    }
+
+    .masters {
+        width: 100%;
+    }
+
+    .masters h3 {
+        width: 100%;
+        margin: 0;
+        font-size: 23px;
+    }
+
+    .masters__profile-img img {
+        width: 400px;
+        height: auto;
+    }
+
+    .masters__worker-specialization {
+        margin-bottom: 20px;
+    }
+
+    /* section facts */
+    .facts {
+        padding: 50px 0;
+    }
+
+    .facts h3 {
+        font-size: 23px;
+    }
+
+    /* section service */
+    .service {
+        padding: 50px 0;
+    }
+
+    .service h3 {
+        font-size: 23px;
+    }
+
+    .service__card-descr {
+        margin-top: 30px;
+    }
+
+    /* section lacs */
+    .lacs {
+        padding: 50px 0;
+    }
+
+    .lacs h3 {
+        font-size: 23px;
+    }
+
+    /* section bugs */
+    .bug__cards {
+        justify-content: center;
+    }
+
+    /* footer */
+    .footer__copyright,
+    .footer__descr {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    /* section welcome */
+    .welcome {
+        padding: 50px 20px 30px 20px;
+    }
+
+    .welcome__icons {
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    /* about section */
+    .about__video iframe {
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    /* prices */
+    .prices__symbol {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .prices__text-container {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .prices__title {
+        font-size: 24px;
+    }
+/* map section */
+    .map h1 {
+        font-size: 24px;
+    }
+    .bug__card-item {
+        width: 100px;
+        height: 150px;
+    }
+    .bug__card-back {
+        width: 100px;
+        height: 200px;
+    }
+
+    
+}

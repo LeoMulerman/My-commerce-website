@@ -1,0 +1,31 @@
+.footer {
+    margin: 0;
+    padding: 66px 0 70px 0;
+    height: 251px;
+    background: #313131;
+}
+
+.footer__copyright, .footer__descr {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--white);
+    opacity: 0.4;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.footer__descr {
+    margin-top: 17px;
+}
+
+.logo-footer {
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--white);
+    position: relative;
+    z-index: 5;
+} 

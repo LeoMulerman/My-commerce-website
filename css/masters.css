@@ -1,0 +1,51 @@
+.masters {
+    padding: 100px 0;
+}
+
+.masters h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 33px;
+    color: var(--typography);
+}
+
+
+.masters__descr {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--typography-transparent);
+    margin-top: 30px;
+}
+
+.masters__block {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.masters__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.masters__profile-item {
+    display: flex;
+    gap: 30px;
+}
+
+.masters__worker-name {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--typography);
+}
+
+.masters__worker-specialization {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 17px;
+    color: var(--typography-transparent);
+    margin-top: 8px;
+}

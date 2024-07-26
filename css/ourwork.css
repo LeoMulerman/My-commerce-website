@@ -1,0 +1,68 @@
+.ourwork {
+    padding: 100px 0px;
+}
+
+.ourwork h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 33px;
+    color: var(--typography);
+    text-align: center;
+}
+
+.ourwork__cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.ourwirk__card-item {
+    width: 200px;
+    height: 280px;
+}
+
+.icon img {
+    display: block;
+    margin: 0 auto;
+    width: 55px;
+    height: 55px;
+}
+
+.ourwirk__card-item h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--typography);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ourwirk__card-item p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: var(--typography-transparent);
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.ourwork__btn {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+    color: var(--white);
+
+    display: block;
+    width: 91px;
+    height: 30px;
+    background-color: #F7A400;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 30px;
+}

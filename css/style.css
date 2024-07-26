@@ -1,0 +1,43 @@
+@import url('header.css');
+@import url('welcome.css');
+@import url('bug.css');
+@import url('ourwork.css');
+@import url('about.css');
+@import url('masters.css');
+@import url('facts.css');
+@import url('service.css');
+@import url('lacs.css');
+@import url('map.css');
+@import url('footer.css');
+@import url('media.css');
+
+
+/* common styles */
+
+/* colors root */
+:root {
+    --color-main: #3E4491;
+    --color-accent: #F7A400;
+    --color-typography: #1A1B4B;
+    --typography-transparent: rgba(49, 49, 90, 0.5);
+    --typography: #1a1b4b;
+    --white: #fff;
+}
+
+/* typography root */
+:root {
+    --font-family: "Roboto", sans-serif;
+  }
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title-h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 33px;
+    color: var(--typography);
+}

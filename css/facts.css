@@ -1,0 +1,49 @@
+.facts {
+    padding: 100px 0;
+    background: url('../img/Facts-bg.jpg') center center/cover no-repeat;
+}
+
+.facts h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 33px;
+    color: var(--white);
+    text-align: center;
+}
+
+.facts__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.facts__card-item {
+    max-width: 174px;
+    height: 214px;
+    margin-top: 30px;
+}
+
+.facts__card-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.facts__card-figure {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--white);
+    text-align: center;
+    margin-top: 26px;
+}
+
+.facts__card-descr {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: var(--white);
+    text-align: center;
+    margin-top: 15px;
+}

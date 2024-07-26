@@ -1,0 +1,72 @@
+.bug {
+    padding: 50px 0;
+}
+.bug h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 33px;
+    color: var(--typography);
+}
+
+.bug p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 17px;
+}
+
+.bug p span {
+    font-weight: 700;
+}
+
+.bug__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+.bug__card-item {
+    cursor: pointer;
+    width: 220px;
+    height: 420px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.bug__card-front,
+.bug__card-back {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform 0.5s linear;
+}
+
+.bug__card-front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.bug__card-back {
+    width: 200px;
+    height: 300px;
+    transform: perspective(600px) rotateY(180deg);
+    background-color: var(--color-main);
+    color: var(--white);
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bug__card-item:hover>.bug__card-front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.bug__card-item:hover>.bug__card-back {
+    transform: perspective(600px) rotateY(0deg);
+}
